@@ -12,6 +12,24 @@ script:
 
 <p>{{ page.description }}</p>
 
+ <!-- chatbot starts -->
+ <section id="chat-bottom-bar" class="chat smallchat minimizedchat">
+    <header class="">
+        <div class="iconparent">
+            <div class="iconmain"> <img src="https://canada.ca/content/dam/cra-arc/chatbot/avatar_head.png" alt="" width="61" height="60" class="ChatWindowIcon"> </div>
+        </div>
+        <h2 class="" data-gc-analytics-customclick="CRA|ARC:Chatbot:Open Chatbot (Clavardez avec Charlie)">Clavardez avec Charlie <span id="unreadMsgSpanContainer" class=""><span id="unreadMsgSpan"></span><span class="wb-inv"> messages non lus</span></span> <span class="small" id="chatstatus"></span></h2>
+        <button id="toggleMax" title="Clavardage en mode plein écran" class="toprightbtn secondFromRight" type="button" data-gc-analytics-customclick="CRA|ARC:Chatbot:Chatbot Fullscreen">⁠<span class="glyphicon glyphicon-resize-full"><span class="wb-inv"> Clavardage en mode plein écran</span></span></button>
+        <button id="toggleSmall" title="Clavardage bref " class="toprightbtn secondFromRight" type="button" data-gc-analytics-customclick="CRA|ARC:Chatbot:Chatbot Smallscreen">⁠<span class="glyphicon glyphicon-resize-small"><span class="wb-inv"> Clavardage bref </span></span></button>
+        <button id="toggleExpand" title="Ouvrir le clavardage " class="toprightbtn rightMost" type="button" data-gc-analytics-customclick="CRA|ARC:Chatbot:Open Chatbot (chevron up)"><span class="glyphicon glyphicon-chevron-up"><span class="wb-inv"> Ouvrir le clavardage </span></span></button>
+        <button id="toggleCollapse" title="Minimiser le clavardage" class="toprightbtn rightMost" type="button" data-gc-analytics-customclick="CRA|ARC:Chatbot:Minimize Chatbot (chevron down) "><span class="glyphicon glyphicon-chevron-down"><span class="wb-inv"> Minimiser le clavardage</span></span></button>
+    </header>
+    <div id="webchat-container" class="">
+        <div id="webchat"> </div>
+    </div>
+</section>
+<!-- chatbot ends -->
+
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia possimus impedit hic ab aspernatur fugit distinctio excepturi? Atque, cumque tempore magnam quis sint quibusdam repellat odio corporis illum accusantium libero at possimus enim tenetur. Rem atque maxime ex amet asperiores veniam ipsa libero at optio. Similique, consequatur. Ipsum, sint aspernatur?</p>
 
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio accusamus quis aut cum dolor quia saepe, harum necessitatibus laboriosam deleniti.</p>
